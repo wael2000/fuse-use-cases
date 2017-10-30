@@ -1,0 +1,13 @@
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-10-29 20:43:22.004
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-10-29 20:43:22.210
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-10-29 21:27:38.754
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-10-29 21:27:39.483
+!MESSAGE Server Startup Succeeded

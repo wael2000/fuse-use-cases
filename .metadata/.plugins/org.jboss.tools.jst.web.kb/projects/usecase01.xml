@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.1.0.Final/arquillian-container-test-api-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.1.0.Final/arquillian-test-api-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.0.Final/arquillian-container-test-spi-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.1.0.Final/arquillian-test-spi-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.1.2/shrinkwrap-spi-1.1.2.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/slf4j/slf4j-api/1.7.7.redhat-2/slf4j-api-1.7.7.redhat-2.jar"/>
+  <path value="/Users/redhat/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-3/shrinkwrap-descriptors-spi-2.0.0-alpha-3.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.0.Final/arquillian-container-impl-base-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.0.Final/arquillian-core-impl-base-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-container/1.1.0.Final/arquillian-junit-container-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.1.0.Final/arquillian-container-spi-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.0_spec/1.0.2.Final-redhat-2/jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-2.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.1.0.Final/arquillian-core-api-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.1.0.Final/arquillian-config-api-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.1.0.Final/arquillian-core-spi-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.0.Final/arquillian-config-impl-base-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-3/shrinkwrap-descriptors-api-base-2.0.0-alpha-3.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar"/>
+  <path value="/Users/redhat/.m2/repository/commons-net/commons-net/3.3.0.redhat-3/commons-net-3.3.0.redhat-3.jar"/>
+  <path value="/Users/redhat/.m2/repository/com/jcraft/jsch/0.1.53/jsch-0.1.53.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.0.Final/arquillian-container-test-impl-base-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/apache/camel/camel-ftp/2.17.0.redhat-630187/camel-ftp-2.17.0.redhat-630187.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.0.Final/arquillian-test-impl-base-1.1.0.Final.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/apache/camel/camel-core/2.17.0.redhat-630187/camel-core-2.17.0.redhat-630187.jar"/>
+  <path value="/Users/redhat/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-core/1.1.0.Final/arquillian-junit-core-1.1.0.Final.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="16" name="%0" offset="1215" path="%1"/>
+   <linked-el length="16" name="%0" offset="6015" path="%2"/>
+   <linked-el length="32" name="%3" offset="5336" path="%2"/>
+   <linked-el length="32" name="%4" offset="6387" path="%2"/>
+   <linked-el length="21" name="%5" offset="5201" path="%2"/>
+   <linked-el length="16" name="%6" offset="1215" path="%1"/>
+   <linked-el length="16" name="%6" offset="6015" path="%2"/>
+   <linked-el length="27" name="%7" offset="5630" path="%2"/>
+   <linked-el length="17" name="%8" offset="654" path="%2"/>
+   <linked-el length="27" name="%9" offset="5630" path="%2"/>
+   <linked-el length="13" name="%10" offset="1148" path="%1"/>
+   <linked-el length="32" name="%11" offset="6387" path="%2"/>
+   <linked-el length="16" name="%12" offset="1854" path="%2"/>
+   <linked-el length="24" name="%13" offset="1565" path="%2"/>
+   <linked-el length="24" name="%14" offset="5421" path="%2"/>
+   <linked-el length="24" name="%15" offset="5421" path="%2"/>
+   <linked-el length="24" name="%15" offset="5473" path="%2"/>
+   <linked-el length="24" name="%16" offset="1565" path="%2"/>
+   <linked-el length="21" name="%17" offset="5201" path="%2"/>
+   <linked-el length="32" name="%18" offset="5336" path="%2"/>
+   <linked-el length="27" name="%18" offset="5630" path="%2"/>
+   <linked-el length="32" name="%18" offset="6387" path="%2"/>
+   <linked-el length="17" name="%19" offset="654" path="%2"/>
+   <linked-el length="32" name="%20" offset="5336" path="%2"/>
+   <linked-el length="27" name="%20" offset="5630" path="%2"/>
+   <linked-el length="24" name="%20" offset="1565" path="%2"/>
+   <linked-el length="31" name="%20" offset="5925" path="%2"/>
+   <linked-el length="32" name="%20" offset="6387" path="%2"/>
+   <linked-el length="24" name="%21" offset="5421" path="%2"/>
+   <linked-el length="24" name="%21" offset="5473" path="%2"/>
+   <linked-el length="24" name="%22" offset="5473" path="%2"/>
+   <linked-el length="31" name="%23" offset="5925" path="%2"/>
+   <linked-el length="31" name="%24" offset="5925" path="%2"/>
+   <linked-el length="31" name="%25" offset="5925" path="%2"/>
+   <linked-el length="24" name="%26" offset="1565" path="%2"/>
+   <linked-el length="13" name="%27" offset="1148" path="%1"/>
+   <linked-el length="32" name="%28" offset="5336" path="%2"/>
+   <linked-el length="16" name="%29" offset="1854" path="%2"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="server" value="%0"/>
+  <alias path="version.maven.compiler" value="%3"/>
+  <alias path="version.maven.surefire" value="%4"/>
+  <alias path="project" value="%5"/>
+  <alias path="server.config" value="%6"/>
+  <alias path="version.maven.war.plugin" value="%7"/>
+  <alias path="env.JBOSS_HOME" value="%8"/>
+  <alias path="version.maven.war" value="%9"/>
+  <alias path="jboss" value="%10"/>
+  <alias path="version.maven.surefire.plugin" value="%11"/>
+  <alias path="camel" value="%12"/>
+  <alias path="/usecase01/src/test/resources/arquillian.xml" value="%1"/>
+  <alias path="version.jboss.bom" value="%13"/>
+  <alias path="maven.compiler.source" value="%14"/>
+  <alias path="maven" value="%15"/>
+  <alias path="version.jboss.bom.eap" value="%16"/>
+  <alias path="project.artifactId" value="%17"/>
+  <alias path="version.maven" value="%18"/>
+  <alias path="env" value="%19"/>
+  <alias path="version" value="%20"/>
+  <alias path="maven.compiler" value="%21"/>
+  <alias path="maven.compiler.target" value="%22"/>
+  <alias path="version.wildfly.maven.plugin" value="%23"/>
+  <alias path="version.wildfly.maven" value="%24"/>
+  <alias path="version.wildfly" value="%25"/>
+  <alias path="/usecase01/pom.xml" value="%2"/>
+  <alias path="version.jboss" value="%26"/>
+  <alias path="jboss.home" value="%27"/>
+  <alias path="version.maven.compiler.plugin" value="%28"/>
+  <alias path="camel.version" value="%29"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>
