@@ -1,0 +1,2 @@
+sql.articles=select * from articles where category= :#category
+sql.articles1=select * from articles where category= #
