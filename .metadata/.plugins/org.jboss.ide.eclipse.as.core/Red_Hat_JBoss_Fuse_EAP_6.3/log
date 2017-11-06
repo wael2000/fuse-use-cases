@@ -49,3 +49,89 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-11-01 18:26:46.178
 !MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-11-02 21:43:44.628
+!MESSAGE Full publish failed for module usecase02
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/m2e-wtp/web-resources/META-INF/maven/com.mycompany/camel-test-spring/pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/m2e-wtp/web-resources/META-INF/maven/com.mycompany/camel-test-spring/pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/classes/org/rh/Article.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/classes/org/rh/MailProcessor.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/classes/org/rh/RowProcessor.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/classes/org/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/classes/cli/configure-mail.cli
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/classes/cli/remove-mail.cli
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/test-classes/arquillian.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/classes/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/classes/db-schema.sql
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/classes/db-test-data.sql
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:43:44.628
+!MESSAGE Error reading file /Users/redhat/Documents/Fuse/dtp/usecase02/target/classes/sql.properties
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-11-02 21:47:05.110
+!MESSAGE Incremental publish failed for module usecase01
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:47:05.110
+!MESSAGE Could not delete /Users/redhat/Documents/Fuse/fuse-eap/standalone/deployments/camel-test-spring.war/WEB-INF/classes/org/test. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/redhat/Documents/Fuse/fuse-eap/standalone/deployments/camel-test-spring.war/WEB-INF/classes/org/test. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:193)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2017-11-02 21:49:09.436
+!MESSAGE Unable to delete module Module[usecase01,org.eclipse.jst.jee.server:usecase01]
+!STACK 0
+java.lang.Exception: Could not delete /Users/redhat/Documents/Fuse/fuse-eap/standalone/deployments/camel-test-spring.war. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.removeModule(StandardFileSystemPublishController.java:486)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.WildFlyFileSystemPublishController.removeModule(WildFlyFileSystemPublishController.java:36)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:339)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-11-02 21:49:09.437
+!MESSAGE Could not delete /Users/redhat/Documents/Fuse/fuse-eap/standalone/deployments/camel-test-spring.war. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/redhat/Documents/Fuse/fuse-eap/standalone/deployments/camel-test-spring.war. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.removeModule(StandardFileSystemPublishController.java:486)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.WildFlyFileSystemPublishController.removeModule(WildFlyFileSystemPublishController.java:36)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:339)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

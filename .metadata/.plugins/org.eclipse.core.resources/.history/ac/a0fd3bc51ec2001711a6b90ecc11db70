@@ -1,0 +1,14 @@
+log4j.logger.ramy=INFO, R
+
+log4j.appender.R=org.apache.log4j.RollingFileAppender
+log4j.appender.R.File=/Users/redhat/Documents/fuse/out/error/errors.log
+log4j.appender.R.MaxFileSize=100KB
+log4j.appender.R.MaxBackupIndex=7
+log4j.appender.R.layout=org.apache.log4j.PatternLayout
+log4j.appender.R.layout.ConversionPattern=%p %t %c - %m%n
+
+# Define an appender
+#log4j.rootLogger=WARN, A1
+#log4j.appender.A1=org.apache.log4j.ConsoleAppender
+#log4j.appender.A1.layout=org.apache.log4j.PatternLayout
+#log4j.appender.A1.layout.ConversionPattern=%-4r [%t] %-5p %c %x - %m%n

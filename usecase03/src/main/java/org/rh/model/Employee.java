@@ -1,0 +1,105 @@
+package org.rh.model;
+
+import java.io.Serializable;
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonArrayBuilder;
+
+public class Employee implements Serializable{
+	private int id;
+	private String name;
+	private java.util.Date dob;
+	private java.util.List<Address> addressList;
+	
+	int getId() {
+		return id;
+	}
+	void setId(int id) {
+		this.id = id;
+	}
+	String getName() {
+		return name;
+	}
+	void setName(String name) {
+		this.name = name;
+	}
+	java.util.Date getDob() {
+		return dob;
+	}
+	void setDob(java.util.Date dob) {
+		this.dob = dob;
+	}
+	java.util.List<Address> getAddressList() {
+		return addressList;
+	}
+	void setAddressList(java.util.List<Address> addressList) {
+		this.addressList = addressList;
+	}
+	
+	public static java.util.List<Employee> getDummyList()
+	{
+		java.util.List<Employee> employeeList = new java.util.ArrayList<Employee>();
+		for(int x=1;x<10;x++){
+			Employee employee = new Employee();
+			employee.setId(x);
+			employee.setName("Name - " + x);
+			employee.setDob(new java.util.Date());
+			java.util.List<Address> addressList = new java.util.ArrayList<Address>();
+			for(int y=1;y<4;y++){
+				Address address = new Address();
+				address.setAddressLine1("Line1 - " + x + y);
+				address.setAddressLine2("Line2 - " + x + y);
+				address.setCity("City - " + x + y);
+				address.setCountry("Country - " + x + y);
+				addressList.add(address);
+			}
+			employee.setAddressList(addressList);
+			employeeList.add(employee);
+		}
+		return employeeList;
+	}
+	
+	public static String getDummyJSONList()
+	{
+		java.util.List<Employee> employeeList = new java.util.ArrayList<Employee>();
+		for(int x=1;x<10;x++){
+			Employee employee = new Employee();
+			employee.setId(x);
+			employee.setName("Name - " + x);
+			employee.setDob(new java.util.Date());
+			java.util.List<Address> addressList = new java.util.ArrayList<Address>();
+			for(int y=1;y<4;y++){
+				Address address = new Address();
+				address.setAddressLine1("Line1 - " + x + y);
+				address.setAddressLine2("Line2 - " + x + y);
+				address.setCity("City - " + x + y);
+				address.setCountry("Country - " + x + y);
+				addressList.add(address);
+			}
+			employee.setAddressList(addressList);
+			employeeList.add(employee);
+		}
+		JsonArrayBuilder jsonArrayBuilder = Json.createArrayBuilder();
+        for(Employee employee: employeeList) {
+        	JsonArrayBuilder addressJsonArrayBuilder = Json.createArrayBuilder();
+        	for(Address address:employee.getAddressList()){
+        		addressJsonArrayBuilder.add(
+        	            Json.createObjectBuilder()
+        	                .add("addressLine1", address.getAddressLine1())
+        	                .add("addressLine2", address.getAddressLine2())
+        	                .add("city", address.getCity())
+        	                .add("country", address.getCountry())
+                    );
+        	}
+            jsonArrayBuilder.add(
+	            Json.createObjectBuilder()
+	                .add("id", employee.getId())
+	                .add("name", employee.getName())
+	                .add("dob", employee.getDob().getTime())
+	                .add("addressList", addressJsonArrayBuilder)
+            );
+        }
+        JsonArray employeeJson = jsonArrayBuilder.build();
+		return employeeJson.toString();
+	}
+}

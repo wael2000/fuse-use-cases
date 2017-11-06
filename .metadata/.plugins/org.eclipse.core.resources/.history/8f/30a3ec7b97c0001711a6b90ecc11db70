@@ -1,0 +1,39 @@
+package org.rh.model;
+
+public class Employee {
+	private int id;
+	private String name;
+	private java.util.Date dob;
+	private java.util.List<Address> addressList;
+	
+	int getId() {
+		return id;
+	}
+	void setId(int id) {
+		this.id = id;
+	}
+	String getName() {
+		return name;
+	}
+	void setName(String name) {
+		this.name = name;
+	}
+	java.util.Date getDob() {
+		return dob;
+	}
+	void setDob(java.util.Date dob) {
+		this.dob = dob;
+	}
+	java.util.List<Address> getAddressList() {
+		return addressList;
+	}
+	void setAddressList(java.util.List<Address> addressList) {
+		this.addressList = addressList;
+	}
+	
+	static java.util.List<Employee> getDummyList()
+	{
+		java.util.List<Employee> employeeList = new java.util.ArrayList<Employee>();
+		return employeeList;
+	}
+}

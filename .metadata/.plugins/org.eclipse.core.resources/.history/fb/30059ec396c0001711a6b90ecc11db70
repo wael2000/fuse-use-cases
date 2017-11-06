@@ -1,0 +1,15 @@
+package org.rh.model;
+
+public class Employee {
+	private int id;
+	String name;
+	java.util.Date dob;
+	java.util.List<Address> addressList;
+	int getId() {
+		return id;
+	}
+	void setId(int id) {
+		this.id = id;
+	}
+	
+}

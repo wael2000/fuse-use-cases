@@ -2,22 +2,24 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="pop" key="selection"/>
+		<item value="FILE_QS_ERROR" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="pop"/>
-			<item value="_to1"/>
-			<item value="_setHeader1"/>
-			<item value="_setHeader2"/>
-			<item value="sendEmail"/>
-			<item value="Fuse"/>
-			<item value="fuse"/>
-			<item value="say"/>
+			<item value="FILE_QS_ERROR"/>
+			<item value="log"/>
+			<item value="ERROR"/>
+			<item value="log4"/>
+			<item value="commons-logging"/>
+			<item value="log4j"/>
+			<item value="camelspringtest"/>
+			<item value="err"/>
 		</list>
 		<list key="replacehistory">
+			<item value="&apos;"/>
+			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

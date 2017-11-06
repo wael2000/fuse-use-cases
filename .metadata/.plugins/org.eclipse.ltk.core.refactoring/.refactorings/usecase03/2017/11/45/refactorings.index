@@ -1,0 +1,8 @@
+1509879916620	Move 'log4j.properties' to 'resources'
+1509894256642	Rename resource 'log4j.properties'
+1509894538319	Rename resource 'log4j.xml'
+1509894547088	Rename resource 'delete_log4j.properties'
+1509896104809	Move 'jboss-deployment-structure.xml' to 'META-INF'
+1509896277980	Move 'jboss-deployment-structure.xml' to 'WEB-INF'
+1509896774792	Delete element
+1509897010265	Rename resource 'log4j.properties'

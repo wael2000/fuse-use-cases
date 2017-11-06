@@ -1,0 +1,5 @@
+package org.rh.model;
+
+public class Employee {
+
+}

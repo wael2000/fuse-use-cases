@@ -1,0 +1,8 @@
+package org.rh.ws;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+@WebService()
+public class Employee {
+}
